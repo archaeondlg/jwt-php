@@ -1,0 +1,15 @@
+{
+    "name": "archaeon/jwt",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "lcobucci/jwt": "^5.3",
+        "workerman/webman-framework": "^2.1 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "archaeon\\jwt\\": "src/"
+        }
+    }
+}
